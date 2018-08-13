@@ -6,4 +6,6 @@ Requirements:
 
 PHAST v1.4 - https://github.com/CshlSiepelLab/phast
 
+bedtools v2.26.0 - https://github.com/arq5x/bedtools2
+
 BioPerl modules AlignIO and SimpleAlign
