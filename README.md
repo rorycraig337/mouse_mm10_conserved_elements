@@ -5,4 +5,4 @@ Pipeline for identification of CEs/CNEs for the mm10 mouse genome, to be used fo
 Requirements:
 
 PHAST v1.4 - https://github.com/CshlSiepelLab/phast
-BioPerl modules AlignIO and SimpleAlign
+\nBioPerl modules AlignIO and SimpleAlign
