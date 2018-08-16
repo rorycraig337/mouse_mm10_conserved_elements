@@ -2,7 +2,7 @@
 
 Pipeline for identification of CEs/CNEs for the mm10 mouse genome, to be used for population genetics. Using phastCons and UCSC alignments, but masking mouse and rat sequences to avoid ascertainment bias from mouse/rat divergence.
 
-File of CNEs can be produced by running: bash pipeline.sh
+File of CEs (ens_mm10_CEs.bed) and CNEs (ens_mm10_CNEs.bed) can be produced by running: bash pipeline.sh
 
 Requirements:
 
