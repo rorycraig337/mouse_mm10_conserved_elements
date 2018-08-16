@@ -9,7 +9,7 @@ use Bio::SimpleAlign;
 #script to split a multiple fasta alingment to blocks, splitting where the reference species sequence is unaligned for a set number of bases
 #options are block_size (number of bases per block), interval (total region size around block boundary to search for unaligned sequence), unaligned (number of bases that permits a split)
 #works with phast style "*" characters, but as these are not recognised by bioperl warnings will be produced, it is recommended to direct stderr to a log file
-#assumes file name contains chromosome name before first "." character
+#assumes file name of species.chr.*, and uses chromosome information for file name
 #usage: perl split_mfa_to_blocks.pl --mfa in.mfa --block_size 10000000 --interval 100000 --unaligned 1000
 
 
