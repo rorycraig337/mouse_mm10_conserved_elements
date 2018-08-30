@@ -38,6 +38,9 @@ perl UCSC_to_ENSEMBL_names.pl --in mm10_CEs.bed --out ens_mm10_CEs.bed
 #remove any CEs with overlap with exons
 bedtools intersect -v -a ens_mm10_CEs.bed -b ens_mm10_exons.bed > ens_mm10_CNEs.bed
 
+#make additional file of all non-exonic conserved bases by subtracting exons from CEs
+bedtools subtract -a ens_mm10_CEs.bed -b ens_mm10_exons.bed > ens_mm10_conserved_nonexonic_bases.bed
+
 #clean up directory
 rm *mfa
 rm *most-cons*
